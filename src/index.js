@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
+import Card from './Card';
 import 'tachyons';
 
 
-ReactDOM.render(<Card />, document.getElementById('root'));
+ReactDOM.render(<div>
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    </div>, document.getElementById('root'));
